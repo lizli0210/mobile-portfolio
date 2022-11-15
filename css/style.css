@@ -14,7 +14,6 @@ html {
     color: darkblue
     }
 
-/* Navigation */
   .navigation {
     position: fixed;
     top: 0;
@@ -72,8 +71,6 @@ html {
     margin-right: 16px;
     font-size: 30px;
   }
-
-/*  */
 
 #Hello {
   grid-row: 2;
@@ -176,7 +173,6 @@ html {
   }
 }
 
-/* Main content */
 main{
   grid-row: 3;
   grid-column: 1 / -1;
@@ -206,8 +202,6 @@ h1 {
   margin: 0 auto;
  }
 
-
-/* Gallery */
 .gallery {
   margin: 0 auto;
   display: flex;
@@ -266,8 +260,6 @@ figure:hover .overlay {
   opacity: 1;
 }
 
-
-/* Footer */
 footer{
   grid-row: 5;
   grid-column: 1 / -1;
@@ -285,7 +277,6 @@ footer{
     grid-template-columns: 300px auto;
   }
 
-      /* Main content */
       main {
         grid-row: 3;
         grid-column: 2;
@@ -306,11 +297,10 @@ footer{
       grid-template-columns: 450px auto;
     }
 
-    /* */
     .gallery-item {
       max-width: 300px;
     } 
-     /* Footer */
+    
     footer {
       grid-row: 4;
   }   
