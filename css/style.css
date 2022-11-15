@@ -130,18 +130,48 @@ html {
 }
 
 
-@keyframes conanimation{
-  0%, 7% {transform: rotateZ(0);}
-  15% {transform: rotateZ(-15deg);}
-  20% {transform: rotateZ(10deg);}
-  25% {transform: rotateZ(-10deg);}
-  30% {transform: rotateZ(6deg);}
-  35% {transform: rotateZ(-4deg);}
-  40%, 100% {transform: rotateZ(0);}
+@keyframes showup {
+  0% {
+      opacity: 0;
+  }
+
+  20% {
+      opacity: 1;
+  }
+}
+
+@keyframes slidein {
+  20% {
+      margin-left: -800px;
+  }
+
+  35% {
+      margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+      opacity: 0;
+      width: 0px;
+  }
+
+  20% {
+      opacity: 1;
+      width: 0px;
+  }
+
+  30% {
+      width: auto;
+  }
+
+  80% {
+      opacity: 1;
+  }
 }
 
 @media (prefers-reduced-motion) {
-  #Hello div:first-of-type {
+  #greet div:first-of-type {
       animation: none;
   }
   
