@@ -301,6 +301,10 @@ footer{
       max-width: 300px;
     } 
     
+    .aewsomeicon{
+      font-weight: 200;
+    }
+    
     footer {
       grid-row: 4;
   }   
