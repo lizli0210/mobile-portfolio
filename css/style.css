@@ -41,8 +41,6 @@ html {
   text-transform: uppercase;
   }
 
-
-
 .navigation a {
   color: darkblue;
   display: block;
@@ -66,7 +64,7 @@ html {
   text-decoration: underline;
   }
 
-  .topnav input[type=text] {
+  .topnav input[type=tet] {
     float: right;
     padding: 6px;
     border: none;
@@ -90,7 +88,6 @@ html {
   background-size: cover;
   text-align: center;
 }
-
 
 #Hello div {
   display: inline-block;
@@ -131,24 +128,19 @@ html {
   animation: 3s 1 alternate slidein;
 }
 
-
 @keyframes showup {
   0% {
-      opacity: 0;
-  }
+      opacity: 0;}
 
   20% {
-      opacity: 1;
-  }
+      opacity: 1; }
 }
 
 @keyframes slidein {
-  20% {
-      margin-left: -800px;
+  20% {margin-left: -800px;
   }
 
-  35% {
-      margin-left: 0px;
+  35% {margin-left: 0px;
   }
 }
 
@@ -163,12 +155,10 @@ html {
       width: 0px;
   }
 
-  30% {
-      width: auto;
+  30% {width: auto;
   }
 
-  80% {
-      opacity: 1;
+  80% {opacity: 1;
   }
 }
 
@@ -307,7 +297,6 @@ footer{
     .gallery-item {
         max-width: 80%;
     }
- 
 }
 
   @media screen and (min-width:900px) {
@@ -316,7 +305,7 @@ footer{
       grid-template-columns: 450px auto;
     }
 
-    /* Main content */
+    /* */
     .gallery-item {
       max-width: 300px;
     } 
